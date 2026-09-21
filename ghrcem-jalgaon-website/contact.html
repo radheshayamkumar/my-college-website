@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — GHRCEM Jalgaon</title>
+<meta name="description" content="Contact details and enquiry form for GH Raisoni College of Engineering and Management, Jalgaon." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>Jalgaon, Maharashtra &nbsp;·&nbsp; Affiliated to KBC North Maharashtra University</span>
+    <span><a href="contact.html">admissions@ghrcemjalgaon.example</a></span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GHRCEM Jalgaon emblem">
+        <circle cx="22" cy="22" r="21" fill="#4a0e17" stroke="#c9973d" stroke-width="2"/>
+        <path d="M22 10 L31 15.5 V27 L22 32.5 L13 27 V15.5 Z" fill="none" stroke="#e3c583" stroke-width="1.4"/>
+        <text x="22" y="26" text-anchor="middle" font-family="Fraunces, serif" font-size="13" fill="#faf6f0">GH</text>
+      </svg>
+      <span class="brand-text">
+        <span class="name">GHRCEM Jalgaon</span>
+        <span class="sub">Engineering &amp; Management</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <div class="page-header">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <h1>Contact us</h1>
+      <p>Reach the admissions office, or send a general enquiry using the form below.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="value-grid" style="margin-bottom: 48px;">
+        <div>
+          <h3>Campus address</h3>
+          <p>GH Raisoni College of Engineering &amp; Management<br />Jalgaon, Maharashtra, India<br /><em>(placeholder — add exact address)</em></p>
+        </div>
+        <div>
+          <h3>Phone</h3>
+          <p>+91-XXXXX-XXXXX<br /><em>(placeholder — add official number)</em></p>
+        </div>
+        <div>
+          <h3>Email</h3>
+          <p><a href="mailto:admissions@ghrcemjalgaon.example">admissions@ghrcemjalgaon.example</a><br /><em>(placeholder domain)</em></p>
+        </div>
+      </div>
+
+      <div class="section-head">
+        <h2>Send a message</h2>
+        <p class="note">Same validated form pattern as Admissions, reused here for general enquiries.</p>
+      </div>
+
+      <form class="form-card" data-validate novalidate>
+        <div class="field">
+          <label for="c-fullname">Full name</label>
+          <input type="text" id="c-fullname" name="fullname" required />
+          <span class="field-error">Please enter your full name.</span>
+        </div>
+
+        <div class="field">
+          <label for="c-email">Email address</label>
+          <input type="email" id="c-email" name="email" required />
+          <span class="field-error">Please enter a valid email address.</span>
+        </div>
+
+        <div class="field">
+          <label for="c-subject">Subject</label>
+          <input type="text" id="c-subject" name="subject" required />
+          <span class="field-error">Please enter a subject.</span>
+        </div>
+
+        <div class="field">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" rows="5" required></textarea>
+          <span class="field-error">Please enter a message.</span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <div class="form-status" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>GHRCEM Jalgaon</h4>
+        <p>Demo college website built for a Coder's Club activity — HTML, CSS and vanilla JavaScript, deployed as a static site.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Jalgaon, Maharashtra, India</li>
+          <li><a href="mailto:admissions@ghrcemjalgaon.example">admissions@ghrcemjalgaon.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> GHRCEM Jalgaon — demo site for educational use.</span>
+      <span>Built with HTML, CSS &amp; JS</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
